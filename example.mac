@@ -1,0 +1,11 @@
+# Macro file for MTest proton source example
+#
+#Set verbosity
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+#
+#Run for a number of events
+/run/beamOn 150000
+
