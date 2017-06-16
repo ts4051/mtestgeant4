@@ -29,6 +29,7 @@ This will build the executable 'example' in the build directory.
 ## Running the example
 
 cd path/to/build/dir
+
 ./example example.mac
 
 An output ROOT file (MTestProtonSource.root) contains some histograms than be used to verify the operation.
