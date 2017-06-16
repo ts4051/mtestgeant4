@@ -66,7 +66,6 @@ target_link_libraries(example ${ROOT_LIBRARIES})
 
 set(EXAMPLE_SCRIPTS
   example.mac
-  vis.mac
   )
 
 foreach(_script ${EXAMPLE_SCRIPTS})

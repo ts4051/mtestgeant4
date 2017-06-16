@@ -7,8 +7,12 @@ An example Geant4 project is included for testing.
 ## Dependencies
 
 GEANT4 (tested with V9.6.4)
+
 ROOT (tested with V6)
+
 cmake (V3.1 or higher)
+
+C++11 supporting compiler
 
 ## Building the example
 

@@ -164,10 +164,10 @@ void mtest::MTestProtonSource::EnablePlotting() {
     numBucketsPerBatch_, -0.5, numBucketsPerBatch_-0.5);
 
   name = "h_protonTimeInBucket"; 
-  histoMap_[name] = new TH1F(name.c_str(), ";Time of proton relative to start of RF bucket", 100, 0, rfBucketPeriod_);
+  histoMap_[name] = new TH1F(name.c_str(), ";Time of proton relative to start of RF bucket [ns]", 100, 0, rfBucketPeriod_);
 
   name = "h_protonTimeInBunch"; 
-  histoMap_[name] = new TH1F(name.c_str(), ";Time of proton relative to start of proton bunch", 100, 0, bunchWidth_);
+  histoMap_[name] = new TH1F(name.c_str(), ";Time of proton relative to start of proton bunch [ns]", 100, 0, bunchWidth_);
 
   name = "h_bucketOccupancy"; 
   histoMap_[name] = new TH1F(name.c_str(), ";RF bucket occupancy at MTest", 10, -0.5, 9.5);
